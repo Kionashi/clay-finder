@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "modid": "clayfinder",
+    "name": "ClayFinder",
+    "authors": [
+        "Kionashi"
+    ],
+    "description": "A simple mod that allows you to create a magic doll that helps you find clay on the early game.",
+    "version": "1.0.0",
+    "dependencies": {
+        "game": ""
+    }
+}

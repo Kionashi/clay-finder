@@ -1,0 +1,29 @@
+{
+  "code": "doll",
+  "class": "clayfinder.entitydoll",
+  "client": {
+    "renderer": "Shape",
+    "shape": {
+      "base": "item/doll"
+    },
+    "texture": {
+      "base": "item/doll"
+    },
+    "size": 3,
+    "attributes": {
+
+    },
+    "spawn": {
+      "conditions": []
+    },
+    "behaviors": []
+  },
+  "server": {
+    "attributes": {
+     
+    },
+    "behaviors": [
+     
+    ]
+  }
+}
