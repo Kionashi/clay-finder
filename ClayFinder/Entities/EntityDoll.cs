@@ -13,9 +13,10 @@ namespace ClayFinder.Entities
     {
         public override void Initialize(EntityProperties properties, ICoreAPI api, long InChunkIndex3d)
         {
-            api.Logger.Event("Initializing EntityDoll!!");
-
+           
+            api.Logger.Error("Initializing EntityDoll!!");
             base.Initialize(properties, api, InChunkIndex3d);
+
         }
 
     }

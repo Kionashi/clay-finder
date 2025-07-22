@@ -2,8 +2,6 @@
 using ClayFinder.Items;
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
-using Vintagestory.API.Common.Entities;
-using Vintagestory.API.Config;
 using Vintagestory.API.Server;
 
 namespace ClayFinder
@@ -13,10 +11,11 @@ namespace ClayFinder
 
         public override void Start(ICoreAPI api)
         {
-            Mod.Logger.Notification("Hello from template mod: " + api.Side);
+            base.Start(api);
+            api.World.Logger.Event("Started Clayfinder mod!");
             api.RegisterItemClass(Mod.Info.ModID + ".doll", typeof(ItemDoll));
             api.RegisterEntity(Mod.Info.ModID + ".entitydoll", typeof(EntityDoll));
-            base.Start(api);
+            
         }
         public override void StartServerSide(ICoreServerAPI api)
         {
