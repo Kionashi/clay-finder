@@ -24,11 +24,11 @@ namespace ClayFinder.Items
             if (entityDoll == null)
             {
                 byEntity.World.Logger.Error("FAILURE");
-            }
-            else {
+            } else {
                 byEntity.World.Logger.Error("SUCCESSS!");
             }
-                base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
+
+            base.OnHeldInteractStart(slot, byEntity, blockSel, entitySel, firstEvent, ref handling);
         }
     }
 }
