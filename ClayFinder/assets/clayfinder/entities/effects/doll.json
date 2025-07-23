@@ -19,11 +19,11 @@
     "behaviors": []
   },
   "server": {
-    "attributes": {
-     
-    },
     "behaviors": [
-     
+      {
+        "code": "despawn",
+        "minseconds": 300
+      },
     ]
   }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
 using Vintagestory.API.MathTools;
+using Vintagestory.GameContent;
 
 namespace ClayFinder.Entities
 {
@@ -14,7 +15,7 @@ namespace ClayFinder.Entities
         public override void Initialize(EntityProperties properties, ICoreAPI api, long InChunkIndex3d)
         {
            
-            api.Logger.Error("Initializing EntityDoll!!");
+            api.World.Logger.Error("Initializing EntityDoll!!");
             base.Initialize(properties, api, InChunkIndex3d);
 
         }
